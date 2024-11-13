@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "geist-bold";
+    src: url(../fonts/static/Geist-Bold.ttf);
+
+    font-family: "geist-semibold";
+    src: url(../fonts/static/Geist-SemiBold.ttf);
+}
+
+:root{
+    --color1: rgba(16, 68, 114, 1); 
+    --color2: rgba(4, 104, 165, 1); 
+    --color3: rgba(42, 148, 191, 1); 
+    --color4: rgba(131, 180, 191, 1); 
+    --color5: rgba(242, 237, 213, 1); 
+
+
+    --color_OP1: rgba(68, 109, 191, 1); 
+    --color_OP2: rgba(88, 144, 216, 1); 
+    --color_OP3: rgba(143, 174, 216, 1); 
+    --color_OP4: rgba(33, 38, 0, 1); 
+    --color_OP5: rgba(191, 185, 158, 1); 
+
+    --font1: "geist-bold";
+    --font2: "geist-semibold";
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--color1);
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.menu{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: var(--font2);
+    color: var(--color5);
+    font-size: 14px;
+}
+
+body{
+    background-color: var(--color2);
+    width: 100%;
+    height: fit-content;
+}
+
+.ciclismo{
+    display: flex;
+    justify-content: center;
+}
+/*.roda{
+    animation-name: roda;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.roda_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px;
+}
+
+@keyframes roda{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+*/
+
